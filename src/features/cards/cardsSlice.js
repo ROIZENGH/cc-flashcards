@@ -14,9 +14,6 @@ const cardsSlice = createSlice({
             state.cards.[action.payload.id] = action.payload;
         }
     },
-    extraReducers: {
-
-    }
 })
 
 export const selectCards = (state) => state.cards.cards;

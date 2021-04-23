@@ -15,9 +15,6 @@ const quizzesSlice = createSlice({
             state.quizzes[action.payload.id] = action.payload;
         }
     },
-    extraReducers: {
-
-    }
 })
 
 export const thunkCreateQuiz = (payload) => {
