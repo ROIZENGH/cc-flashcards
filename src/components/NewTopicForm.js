@@ -19,6 +19,7 @@ export default function NewTopicForm() {
     if (name.length === 0) {
       return;
     }
+    // dispatch your add topic action here
     dispatch(
       addTopic({
         name: name,
@@ -26,7 +27,6 @@ export default function NewTopicForm() {
         id: uuidv4()
       })
     );
-    // dispatch your add topic action here
     history.push(ROUTES.topicsRoute());
   };
 
