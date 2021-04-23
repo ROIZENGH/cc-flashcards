@@ -27,7 +27,7 @@ export const thunkCreateQuiz = (payload) => {
     }
 }
 
-export const setQuizzes = (state) => state.quizzes.quizzes;
+export const selectQuizzes = (state) => state.quizzes.quizzes;
 
 export const { addQuiz } = quizzesSlice.actions;
 export default quizzesSlice.reducer;
