@@ -10,7 +10,7 @@ const quizzesSlice = createSlice({
     name: "quizzes",
     initialState: initialState,
     reducers: {
-        addQuizz: (state, action) => {
+        addQuiz: (state, action) => {
             state.quizzes[action.payload.id] = action.payload;
         }
     },
@@ -21,5 +21,5 @@ const quizzesSlice = createSlice({
 
 export const setQuizzes = (state) => state.quizzes.quizzes;
 
-export const { addQuizz } = quizzesSlice.actions;
+export const { addQuiz } = quizzesSlice.actions;
 export default quizzesSlice.reducer;
