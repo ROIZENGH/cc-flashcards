@@ -29,8 +29,8 @@ export default function NewQuizForm() {
       id: uuidv4(),
       name: name,
       topicId: topicId,
-      cardsIds: cardIds
-    }
+      cardIds: cardIds
+    };
 
     dispatch(thunkCreateQuiz(payload));
 
