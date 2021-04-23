@@ -2,12 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     topics: {
-        'db173bce-cd3d-411b-ba11-40be4efa09b3': {
-            name: 'Test Topic',
-            icon: 'https://static-assets.codecademy.com/skillpaths/react-redux/redux-quiz-app/data-flow.svg',
-            id: 'db173bce-cd3d-411b-ba11-40be4efa09b3',
-            quizIds: []
-        }
+
     },
 }
 
