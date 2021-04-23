@@ -8,7 +8,7 @@ export default function NewQuizForm() {
   const [cards, setCards] = useState([]);
   const [topicId, setTopicId] = useState("");
   const history = useHistory();
-  const topics = {};
+  const topics = useSelector(selectTopics);
 
   const handleSubmit = (e) => {
     e.preventDefault();
